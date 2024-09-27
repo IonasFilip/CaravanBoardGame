@@ -15,4 +15,12 @@ public class CaravanRow {
             return Player2Row;
         }
     }
+
+    public int getToatal(boolean player1){
+        if(player1){
+            return Player1Row.getTotal();
+        }else{
+            return Player2Row.getTotal();
+        }
+    }
 }
